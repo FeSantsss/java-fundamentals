@@ -1,0 +1,11 @@
+target/
+bin/
+out/
+*.class
+.settings/
+.project
+.classpath
+.idea/
+*.iml
+.vscode/
+.env
