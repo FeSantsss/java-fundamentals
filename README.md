@@ -43,6 +43,3 @@ No credentials are stored in this repository. Projects that need a database read
 | `ProjectJPAMaven` | A MySQL database named `aulajpa` on `localhost:3306`. Replace the `${DB_USER}` and `${DB_PASSWORD}` placeholders in `src/main/resources/META-INF/persistence.xml` with your local credentials, and don't commit them. |
 | `ProjectSpringStudy` | Uses the `test` profile with an in-memory H2 database. Set the `DB_PASSWORD` environment variable (any value works for H2). The H2 console is at `/h2-console`. |
 
-## What I learned
-
-<!-- TODO: Felipy writes this -->
