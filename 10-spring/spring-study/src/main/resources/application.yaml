@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springStudy
+  profiles:
+    active: dev
+
+
+
+
