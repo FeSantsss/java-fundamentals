@@ -1,4 +1,11 @@
 package com.felipysantsss.javastudy.introducao.collections.domain;
 
-public record User(String name, Integer age) {
+public class User {
+    String name;
+    Integer age;
+
+    public User(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
 }
