@@ -1,7 +1,5 @@
 package com.felipysantsss.javastudy.introducao.collections.domain;
 
-import java.util.Objects;
-
 public class User {
     String name;
     Integer age;
@@ -36,5 +34,11 @@ public class User {
         User usr = (User) otherUser;
         if (name == null) return false;
         return name.equals(usr.getName());
+    }
+
+    // hashCode study
+    @Override
+    public int hashCode(){
+        return this.name.hashCode();
     }
 }
